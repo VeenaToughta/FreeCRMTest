@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This xml file is used to run all the test case classes by running this single file instead of running each separately  -->
+<!-- Test runner class (regression means contains all the test case classes of project)-->
+
+<suite name="Automation Test Suite">
+
+<listeners>
+	<listener class-name="com.crm.qa.extentreportlistener.ExtentReportListener" />
+</listeners>
+
+	<test name="CRM Test Cases">
+		<classes>
+			<!--  <class name="com.crm.qa.test.LoginPageTest"></class> -->
+			<class name="com.crm.qa.test.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>

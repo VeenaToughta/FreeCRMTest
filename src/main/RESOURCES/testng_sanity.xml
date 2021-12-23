@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- This xml file is used to run all the test case classes by running this single file instead of running each separately  -->
+<!-- Test runner class (sanity contains only one or two test classes that have to be executed)-->
+
+<suite name="Automation Test Suite">
+	<test name="CRM Test Cases">
+		<classes>
+			<class name="com.crm.qa.test.LoginPageTest"></class>
+		</classes>
+	</test>
+</suite>
